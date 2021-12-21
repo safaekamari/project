@@ -8,7 +8,7 @@ public class Client extends Utilisateur{
     private String Prenom;
     private int Age;
     private int[] LesFavoris;
-	
+	//ajout de comment pour test
     public Client(String nom, String prenom, int age) {
         super(genererUser(),genererPassword());
         idClient++;
